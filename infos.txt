@@ -1,8 +1,0 @@
-https://towardsdatascience.com/looking-for-a-house-build-a-web-scraper-to-help-you-5ab25badc83e
-
-
-
-house_containers = html_soup.find_all('section', class_="property-card__values")
-
-first = house_containers[0]
-var_1 = first.find_all('div')[0].text.replace(' ','').replace('\n', '')
